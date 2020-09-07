@@ -1,0 +1,695 @@
+
+@media(max-width:414px){
+	.container{
+		width:100%;
+		box-sizing:border-box;
+		border-top:4px solid coral;
+		height:60px;
+		position:fixed;
+		top:-1px;
+		z-index:1;
+		background-color:#f4f4f4;
+		/* overflow: hidden; */
+		/* display:grid; */
+		/* align-items:flex-start; */
+	}
+	.navbar {
+		display: inline;
+		margin-top: 10px;
+		position: relative;
+		top:-60px;
+		left:100px;
+		/* overflow:hidden; */
+		display: flex;
+		align-items:flex-start;
+		flex-direction:row;
+		padding-left:10px;
+		box-sizing: border-box;
+		flex-wrap:nowrap;
+	}
+	.phead{
+		display: inline;
+		position: relative;
+		top:-4px;
+	
+	}
+	h4{
+		position: relative;
+		top:-4px;
+		/* margin-right:80px; */
+		display: inline;
+		margin:0;
+		padding:0;
+		font-size:12px;
+	}
+	
+	.navbar li {
+		position: relative;
+		display: inline;
+		padding-left: 10px;
+		top:4px;
+	
+	}
+	
+	.navbar a{
+		text-decoration: none;
+		color:grey;
+		font-weight:600;
+	}
+	.navbar a:hover{
+		text-decoration: none;
+		color:#fff;
+		background-color:coral;
+		background-size: 100;
+		border-radius:30px;
+		height:50px;
+		font-weight:600;
+		padding:3px;
+		font-size:12px;
+	}
+	.navbar input{
+		height:15px;
+		position: relative;
+		top:15px;
+		width:25%;
+		border:1px solid grey;
+		border-radius:5px;
+		margin-left:10px;
+	}
+	.btn {
+		position: relative;
+		right:-15px;
+		top:15px;
+	
+	
+		
+	}
+	.btn >button {
+		width:70px;
+		border-radius:5px;
+		margin-top:5px;
+	}
+	.log-in {
+		position: relative;
+		display: inline;
+		height:25px;
+		background-color: rgb(225,236,244);
+		color:rgb(120,160,90);
+		border:1px solid ;
+		left:-170px;
+		top:20px;
+	
+	}
+	.sign-up {
+		position: relative;
+		display: inline;
+		height:25px;
+		background: rgb(0,149,255);
+		color:#f4f4f4;
+		border:none;
+		left:-150px;
+		top:20px;
+	}
+	.main-header p {
+		width:35%;;
+		position: relative;
+		left:40%;
+		font-size:17px;
+		align-items:center;
+		text-align:center;
+		top:115px;
+	}
+	.main .headings h1{
+		margin-left:2%;
+		font-size:35px;
+		font-size:25px;
+		position:relative;
+		left:-15%;
+	}
+	.main .headings p {
+		width:100%;
+		position: relative;
+		height:20px;
+		font-size:17px;
+		text-align:center;
+		left:-15%;
+    }
+    .main .box > div {
+        flex-direction:column;
+        align-items: center;
+        padding:25px;
+        margin-left:15px;
+        border-radius:12px;
+        box-shadow:2px 2px 2px 2px #f1f1f1 ;
+        position: relative;
+        left:-50px;
+        
+        
+    }
+    .main .box .box-1{
+        flex:2;
+        height: 290px;
+        align-self:flex-end;
+        margin-top:50px;
+        /* position: relative; */
+        position:relative;
+        left:-30px;
+        margin-right:17px;
+    }
+    .main .box .box-1 h2 {
+        text-align: center;
+        font-weight:unset;
+        
+    }
+    .main .box .box-1 p{
+        position: relative;
+        top:3px;
+        line-height: 1.3em;
+        width:110%;
+        font-size:15px;
+        left:-5px;
+        
+    }
+    .main .box .box-1 button {
+        position: relative;
+        box-sizing: border-box;
+        top:40px;
+        text-align:center;
+        height:50px;
+        width:130px;
+        border:none;
+        border-radius:5px;
+        left:-3px;
+        background:#2b2d6e;
+        color:#fff;
+        
+    }
+    
+    
+    
+    .main .box .box-2{
+        flex:2;
+        align-self:flex-start;
+        height: 290px;
+    
+        
+    }
+    .main .box .box-2 h2 {
+        text-align: center;
+        font-weight:unset;
+        
+    }
+    .main .box .box-2 p{
+        position: relative;
+        top:3px;
+        line-height: 1.3em;
+        width:110%;
+        font-size:15px;
+        left:-5px;
+    
+        
+    }
+    .main .box .box-2 button {
+        position: relative;
+        box-sizing: border-box;
+        top:-5px;
+        text-align:center;
+        height:50px;
+        width:120px;
+        border:none;
+        border-radius:5px;
+        left:-5px;
+        color:#fff;
+        background:#f48024;
+        
+    }
+    
+    .main .box .box-3{
+        flex:2;
+        align-self:flex-end;
+        margin-top:50px;
+        height: 290px;
+    
+    
+    }.main .box .box-3 h2 {
+        text-align: center;
+        font-weight:unset;
+        
+    }
+    .main .box .box-3 p{
+        position: relative;
+        top:3px;
+        line-height: 1.3em;
+        width:110%;
+        font-size:15px;
+        left:-5px;
+    }
+    .main .box .box-3 button {
+        position: relative;
+        box-sizing: border-box;
+        top:40px;
+        text-align:center;
+        height:50px;
+        width:120px;
+        border:none;
+        border-radius:5px;
+        left:7px;
+        background:#2b2d6e;
+        color:#fff;
+        
+    }
+    .main-2 .heading2 h1 {
+        font-size:30px;
+        position: relative;
+    }
+    .main-2 a {
+        color:coral;
+        font-size:90px;
+        border-radius:5%;
+        display:inline;
+        position: relative;
+        left:-38%;
+        top:15px;
+    }
+    .main-2 .mbox2 {
+        display:flex;
+    }
+    .main-2 .mbox2 > div{
+        border-radius:5px; 
+         border:#f3f3f3 solid 1px; 
+        box-shadow:2px 4px 2px 4px #f1f1f1 ;
+        background:#fff;
+        height:200px;
+        flex-basis:600px;
+        margin-left:50px;
+        flex-direction:column;
+        position: relative;
+         left:-17px;
+    }
+    .mbox2 p{
+        text-align: center;
+        position: relative;
+        top:30px;
+        width:10rem;
+        left:5px;
+        /* flex-wrap:wrap; */
+    }
+
+    .main-3 {
+        background:#2b2d6e;
+        color:#fff;
+        height:1200px;
+        text-align:center;
+        padding-top:90px;
+    }
+    .main-3 .heading3 h1 {
+        font-size:30px;
+        width:65%;
+        position: relative;
+        left:15%;
+    }
+    .main-3 .heading3 p{
+        text-align: center;
+        width:65%;
+        position:relative;
+        left:18%;
+        line-height:1.6em;
+        margin-bottom:80px;
+        font-size:16px;
+    }
+    .main-3 .heading3 button {
+        position:relative;
+        top:-50px;
+        height:40px;
+        width:120px;
+        background:#f48024;
+        border:none;
+        border-radius:5px;
+        color:#fff;
+    }
+     
+    .box3 {
+        display: flex;
+        width:80%;
+        margin-left:10px;
+        margin-bottom: 80px;
+    }
+    .box3 > div{
+        border-radius:5px;
+        border:#f3f3f3 solid 1px;
+        box-shadow:2px 2px 2px 2px #f1f1f1 ;
+        background:#fff;
+        flex:2;
+        height:650px;
+        width:205px;
+        margin-right:10px;
+        color:#000;
+    }
+    .box3 .div2 {
+        background:#fafafb;
+    }
+    .box3 .btn1 {
+        background:#c8ccd0;
+        position:relative;
+        left:-65px;
+        height:30px;
+        width:60px;
+        border:none;
+        border-radius: 3px;
+        top:15px;
+        margin-bottom: 20px;
+    }
+    .box3 div >.line1 {
+        position: relative;
+        margin-top:70px;
+        color:#f3f3f3;
+    }
+    .box3 div >.line2 {
+        position: relative;
+        margin-top:53px;
+        color:#f3f3f3;
+    }
+    .box3 div >.line3 {
+        position: relative;
+        margin-top:5px;
+    }
+    .box3 .btn-1 {
+        background:#c8ccd0;
+        position:relative;
+        left:-3px;
+        height:40px;
+        width:160px;
+        border:none;
+        border-radius: 3px;
+        top:185px;
+        margin-bottom: 25px;
+    }
+    
+    .box3 .btn2 {
+        background:#000;
+        position:relative;
+        left:-55px;
+        height:30px;
+        color:#fff;
+        width:70px;
+        border:none;
+        border-radius: 3px;
+        top:15px;
+        margin-bottom: 20px;
+    }
+    .box3 .div2 .btn-2 {
+        background:#000;
+        position:relative;
+        left:-3px;
+        height:40px;
+        color:#fff;
+        width:160px;
+        border:none;
+        border-radius: 3px;
+        top:135px;
+        margin-bottom: 10px;
+    }
+    .box3 .btn3 {
+        background:#2b2d6e;
+        color:#fff;
+        position:relative;
+        left:-55px;
+        height:30px;
+        width:75px;
+        border:none;
+        border-radius: 3px;
+        top:15px;
+        margin-bottom: 20px;
+    }
+    .box3 .btn-3 {
+        background:#2b2d6e;
+        color:#fff;
+        position:relative;
+        left:-3px;
+        height:40px;
+        width:160px;
+        border:none;
+        border-radius: 3px;
+        top:45px;
+        margin-bottom: 20px;
+    }
+    .main-3 .underBoxes {
+        display:flex;
+        position: relative;
+    }
+    .main-3 .underBoxes > p {
+        position: relative;
+        left:2%;
+        margin-right: 30px;
+    
+    }
+    .main-4 {
+        background:#f7f6f9;
+        overflow:hidden;
+        width:100%;
+        height:500px;
+        text-align:center;
+        position: relative;
+        display: flex;
+        justify-content:space-between;
+    }
+    .main-4 > div {
+        position:relative;
+        top:35%;
+    }
+    .main-4 > div h1 {
+        position:relative;
+        left:2%;
+    }
+    .main-4 .main4-div1 p{
+        width:93%;
+        position:relative;
+        left:1%;
+        line-height: 1.6em;	
+    }
+    .main-4 .main4-div1 button{
+        width:200px;
+        height:40px;
+        position:relative;
+        left:3%;
+        top:20px;
+        background:#f48024;
+        color:#fff;
+        border:none;
+        border-radius:3px;
+    
+    }
+    
+    .main-4 .main4-div2 p{
+        width:80%;
+        position:relative;
+        left:5px;
+        line-height: 1.6em;
+        
+    }
+    .main-4 .main4-div2 button{
+        width:200px;
+        height:40px;
+        position:relative;
+        left:-1%;
+        background:#f48024;
+        color:#fff;
+        border:none;
+        border-radius:3px;
+        top:20px;
+    }
+    .main-5 {
+        position:relative;
+        text-align:center;
+    }
+    .main-5 h1 {
+        font-size:35px;
+        position:relative;
+        top:30px;
+        margin-bottom:90px;
+    
+    }
+    .main-5  .img > img{
+        width:600px
+        
+    }
+    .main-5 h4{
+        font-weight:unset;
+        position: relative;
+        top:20px;
+    }
+    .main-5 button {
+        display:block;
+        width:200px;
+        height:40px;
+        border:none;
+        border-radius:3px;
+        color:#fff;
+        background:#f48024;
+        position:relative;
+        left:35%;
+        top:65px;
+        
+    }
+
+    .main-6 {
+        position: relative;
+        top:250px;
+        text-align:center;
+        width:100%;
+        
+    }
+    .main-6 .box6{
+         display:flex;
+         flex-direction:column;
+    }
+    .main-6 .box6 .box6-1 h4 {
+        position: relative;
+        
+        display:block;
+        top:15px;
+        margin-bottom:40px;
+    }
+    .main-6 .box6 .box6-2 h4 {
+        position: relative;
+        
+        display:block;
+        margin-bottom:25px;
+    }
+    .main-6 .box6 .box6-3 h4 {
+        position: relative;
+        
+        display:block;
+        top:15px;
+        margin-bottom:40px;
+    }
+    .main-6 .box6 .box6-4 h4 {
+        position: relative;
+        
+        display:block;
+        top:30px;
+        margin-bottom:50px;
+    }
+    .main-6 .box6 >div  p {
+        position: relative;
+        font-size:13px;
+        width:55%;
+        left:25%;
+    }
+    .main-6 .box6 .box6-1   p {
+        position: relative;
+        font-size:13px;
+        width:55%;
+        left:25%;
+    }
+    .main-7 {
+        background:#e1ecf4;
+        position: relative;
+        top:330px;
+        /* z-index:1; */
+        margin-bottom: 90px;
+        text-align: center;
+        height: 400px;
+        width:100%;
+    }
+    .main-7 h1 {
+        top:20%;
+        position:relative;
+        left:-140px;
+    }
+    .main-7 .box7 {
+        position:relative;
+        left:90px;
+        display:flex;
+        top:20%;
+        flex-wrap:wrap;
+    }
+    .main-7 .box7 > div {
+        
+        margin-right:30px;
+        margin-bottom:20px;
+    }
+    .main-7 .box7 > div button{
+        border-radius:3px;
+        border:none;
+        height: 75px;
+        background:#fff;
+        color:#000;
+        width:235px;
+    
+        font-size:16px;
+    
+    }
+    .btn-box7 {
+        height: 50px;
+        width:130px;
+        border:none;
+        border-radius:3px;
+        position:relative;
+        left:-345px;
+        top:95px;
+        color:#fff;
+        background:#f48024;
+    }
+
+    .main-footer{
+        position:relative;
+        background:#242729;
+        color:#bacfdc;
+        height:700px;
+        top:240px;
+    }
+    .footer-box {
+        display:flex;
+        flex-wrap:wrap;
+        position:relative;
+        top:-25px;
+        left:50px;
+        
+    }
+    .footer-box > div{
+        margin-right:220px;
+        
+        
+    }
+    .footer-box > div a {
+        text-decoration: none;
+        color:grey;
+        font-weight:600;
+        font-size:13px;
+    }
+    .footer-box > div a:hover {
+        text-decoration: underline;
+        font-size:16px;
+        
+    }
+    .footer-box .tags > ul li{
+    display:inline;
+    font-size:10px;
+    position: relative;
+    top:-20px;
+    left:-10%;
+    }
+    
+    .footer-box > div h4{
+        position:relative;
+        left:40px;
+        font-size:15px;
+    }
+    .main-footer li{
+        list-style:none;
+        
+    }
+    .main-footer li {
+        display:flex;
+    }
+    .main-footer p{
+        font-size:10px;
+        color:grey;
+        width:22%;
+        position:relative;
+        left:78%;
+    }
+    
+    
+}
